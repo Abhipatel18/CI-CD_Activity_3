@@ -8,7 +8,7 @@ env:
   MY_WORKFLOW_VARIABLE: "This is a workflow-level variable"
 
 jobs:
-  demo-job:
+  Variables:
     runs-on: ubuntu-latest
 
     env:
